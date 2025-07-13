@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Version V3 - Ajeet Singh – Top Web Developer in India </title>
+</head>
+<body>
+    <h1>This is Website Version V3</h1>
+    <nav>
+        <a href="/v1/">← Previous Version</a>
+
+        <br><br>
+        <a href="https://hiajeet.com" target="_blank">Main Website</a>
+    </nav>
+
+    <div id="imagev">
+      <img src="my-website-v3.jpg" width="100%" />
+    </div>
+    <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const imagev = document.getElementById("imagev");
+    if (imagev) {
+      imagev.addEventListener("contextmenu", (event) => {
+        event.preventDefault();
+      });
+    }
+  });
+</script>
+</body>
+</html>
